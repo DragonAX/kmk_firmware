@@ -49,12 +49,17 @@ else:
 
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
+        # HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----#ENCODER--#ENCODER--# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+
+XXXXXXX = KC.NO
 keyboard.keymap = [
-    [KC.N1, KC.N2, KC.N3, KC.N4, KC.N5, KC.N6, KC.A, KC.B, KC.C, KC.D, KC.E, KC.F,
-    KC.N1, KC.N2, KC.N3, KC.N4, KC.N5, KC.N6, KC.A, KC.B, KC.C, KC.D, KC.E, KC.F,
-    KC.N1, KC.N2, KC.N3, KC.N4, KC.N5, KC.N6, KC.A, KC.B, KC.C, KC.D, KC.E, KC.F,
-    KC.N1, KC.N2, KC.N3, KC.N4, KC.N5, KC.N6, KC.A, KC.B, KC.C, KC.D, KC.E, KC.F,
-    KC.N1, KC.N2, KC.N3, KC.N4, KC.N5, KC.N6, KC.A, KC.B, KC.C, KC.D, KC.E, KC.F],
+    [# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+     XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  
+     KC.QUOTE, KC.COMMA, KC.DOT,   KC.P,     KC.Y,     XXXXXXX,  KC.F,     KC.G,     KC.C,     KC.R,     KC.L,     KC.SLASH,
+     KC.A,     KC.O,     KC.E,     KC.U,     KC.I,     XXXXXXX,  KC.D,     KC.H,     KC.T,     KC.N,     KC.S,     KC.MINUS,
+     KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,     XXXXXXX,  KC.B,     KC.M,     KC.W,     KC.V,     KC.Z,     KC.BSLASH,
+     KC.LCTRL, KC.LGUI,  KC.LALT,  KC.ENTER, KC.LSHIFT,KC.TAB,   KC.BKDL,  KC.SPACE, KC.RALT,  KC.RGUI,  KC.RCTL,  XXXXXXX,
+     ],
 ]
 
 
