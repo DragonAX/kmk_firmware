@@ -33,12 +33,13 @@ if side == SplitSide.RIGHT:
             board.GP17)
 else:
     keyboard.col_pins = (
-            board.GP2, 
-            board.GP7, 
-            board.GP3, 
-            board.GP4, 
-            board.GP5, 
-            board.GP8,)
+            board.GP8,
+            board.GP5,
+            board.GP4,
+            board.GP3,
+            board.GP7,
+            board.GP2
+            )
     keyboard.row_pins = (
             board.GP6, 
             board.GP9, 
@@ -54,11 +55,11 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 XXXXXXX = KC.NO
 keyboard.keymap = [
     [# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
-     XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  
-     KC.QUOTE, KC.COMMA, KC.DOT,   KC.P,     KC.Y,     XXXXXXX,  KC.F,     KC.G,     KC.C,     KC.R,     KC.L,     KC.SLASH,
-     KC.A,     KC.O,     KC.E,     KC.U,     KC.I,     XXXXXXX,  KC.D,     KC.H,     KC.T,     KC.N,     KC.S,     KC.MINUS,
-     KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,     XXXXXXX,  KC.B,     KC.M,     KC.W,     KC.V,     KC.Z,     KC.BSLASH,
-     KC.LCTRL, KC.LGUI,  KC.LALT,  KC.ENTER, KC.LSHIFT,KC.TAB,   KC.BKDL,  KC.SPACE, KC.RALT,  KC.RGUI,  KC.RCTL,  XXXXXXX,
+     XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX, XXXXXXX,   
+     KC.BSLASH,KC.QUOTE, KC.COMMA, KC.DOT,   KC.P,     KC.Y,      KC.F,     KC.G,     KC.C,     KC.R,     KC.L,    KC.SLASH,  
+     KC.LBRC,  KC.A,     KC.O,     KC.E,     KC.U,     KC.I,      KC.D,     KC.H,     KC.T,     KC.N,     KC.S,    KC.RBRC,
+     KC.GRAVE, KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,      KC.B,     KC.M,     KC.W,     KC.V,     KC.Z,    KC.MINUS, 
+     KC.LCTRL, KC.LGUI,  KC.LALT,  KC.TAB,   KC.ENTER, KC.LSHIFT, KC.SPACE, KC.BSPC,  KC.ESC,   KC.RALT,  KC.RGUI, KC.RCTL,   
      ],
 ]
 
