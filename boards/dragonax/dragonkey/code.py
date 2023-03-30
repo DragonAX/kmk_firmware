@@ -53,9 +53,14 @@ else:
             board.GP4,
             board.GP3,
             board.GP7,
+<<<<<<< HEAD
             board.GP2,
             board.GP10,
             board.GP11)
+=======
+            board.GP2
+            )
+>>>>>>> 4541175f131f55e9804e56525a71e0a82e9cd3f5
     keyboard.row_pins = (
             board.GP6, 
             board.GP9, 
